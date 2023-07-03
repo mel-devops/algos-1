@@ -6,6 +6,11 @@
 
 def anagrams(s1, s2):
   pass #TODO:
+  if(sorted(s1) == sorted(s2)):
+    print("True") 
+  else:
+    print("False")
+  
 
 
 
@@ -15,9 +20,9 @@ def anagrams(s1, s2):
 
 # # TEST CASES
 anagrams('restful', 'fluster') # -> True
-# anagrams('cats', 'tocs') # -> False
-# anagrams('monkeyswrite', 'newyorktimes') # -> True
-# anagrams('paper', 'reapa') # -> False
+anagrams('cats', 'tocs') # -> False
+anagrams('monkeyswrite', 'newyorktimes') # -> True
+anagrams('paper', 'reapa') # -> False
 # anagrams('elbow', 'below') # -> True
 # anagrams('tax', 'taxi') # -> False
 # anagrams('taxi', 'tax') # -> False

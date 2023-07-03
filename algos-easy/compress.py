@@ -14,8 +14,12 @@
 
 def compress(s):
     pass # TODO:
-
-
+    string = " "
+    count = 0
+for i in range(0; len(str))
+if str[i] == str[i-1]:
+    count+=1
+                   else 
 
 
 # TEST CASES
